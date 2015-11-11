@@ -1,0 +1,21 @@
+PODS:
+  - DataBindingLib (0.1.0)
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DataBindingLib (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DataBindingLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DataBindingLib: 9a6b424642518f87e50fb56cfd9de3de83615e26
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+
+COCOAPODS: 0.37.2

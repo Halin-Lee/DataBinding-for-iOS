@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EF0203C3BD347BB109A48A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAEDE10197A720701A27BE /* Foundation.framework */; };
+		1FFB23CF6E28D337F1684608 /* UIView+DataBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E706EAC7EED5FB5B0F2F01B /* UIView+DataBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2675AF7FD8C9C1F841C7753A /* ViewBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC09E98655512E99B4162CA /* ViewBinder.m */; };
+		2A0A6CB041B05A52E433446C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F20312198D15E6A831D94A2C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AD02851ABC458DDC462A62D /* DataBindingLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 93086FD787AEB544049B1526 /* DataBindingLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E065D7DC4D33CDC89415AC1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 764C0DEF64285FD69C8809F1 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3678CB1FE6D2B25535A0AE7D /* UIView+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D0429659B1672999B26CEB /* UIView+DataBinding.m */; };
+		399DD2D15B81505CF6C3F25D /* DataBindingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FB788AAFDB4A013F8ADB55 /* DataBindingUtil.m */; };
+		401B66E88C7E0ED748D94AE2 /* Pods-DataBindingLib_Example-DataBindingLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7AC117A0E10AC7742ACA9C /* Pods-DataBindingLib_Example-DataBindingLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470B63ADEDF2FADFA51BD6C0 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA95B6D50FA013118E7BCEB /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		497DC85447B08625FEAF80F8 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F73A8F370864C9DA97C06D0 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2FE002965CA54B5E1E830E /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E9998BC234B7FEC52E4FD9CF /* UIImage+Snapshot.m */; };
+		54C525334639BA080CF24BF6 /* ViewBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = BD227CF0933DE507AD4D99A0 /* ViewBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6CB50851947A610C683569 /* Pods-DataBindingLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BBB505A17886A6ADCE7DA4 /* Pods-DataBindingLib_Example-dummy.m */; };
+		61327A7E4FA53C07BC2F65BF /* Pods-DataBindingLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D56A6D6B8E8C0A31833C53 /* Pods-DataBindingLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6256C78DBE66C89345C6FE96 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5DB8DC239B2ECE0C4AB39E /* FBSnapshotTestController.m */; };
+		63593DC248EE21A39D5423B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAEDE10197A720701A27BE /* Foundation.framework */; };
+		6F4D9F17CD1C81E13F6DFB48 /* DataBindingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E602A8DF8680EFB537E862 /* DataBindingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735B9098371603CED6B56D43 /* Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D5B7E63A2153E8230EA194 /* Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		747A699FDFC703C7484F34F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAEDE10197A720701A27BE /* Foundation.framework */; };
+		78E7994DB3A9C5FE22ECB29B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A80160883EF95BDB652FC832 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78EB03A7E4D002ED6CBD0E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAEDE10197A720701A27BE /* Foundation.framework */; };
+		806993486898CAB5A702B220 /* DataBindingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FB788AAFDB4A013F8ADB55 /* DataBindingUtil.m */; };
+		86495B50D37F9189954CBDDF /* DataBindingLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D8036DED90B6A444B147B4F /* DataBindingLib.bundle */; };
+		8A0A0CEEF0C7367B085CCCDB /* Pods-DataBindingLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E9947832D5B2655A96BE5 /* Pods-DataBindingLib_Tests-dummy.m */; };
+		8CA4A5FB8C7708EB195978D1 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7077DBA7C455869449DD39C8 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933D2E813FD01FDB85D957DF /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = A92028F72763692817871080 /* UIImage+Diff.m */; };
+		9CACACC21B3C6F3AA1433129 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78D39043CB9AD057273E1B /* UIImage+Compare.m */; };
+		A0C51B0B857F4886BD61FC74 /* UIView+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D0429659B1672999B26CEB /* UIView+DataBinding.m */; };
+		A883E421339561983D9384DA /* ViewBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = BD227CF0933DE507AD4D99A0 /* ViewBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B09BA62D55FEA7FA50635F68 /* Pods-DataBindingLib_Example-DataBindingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919A6CAE5A5BE9D11227EA2C /* Pods-DataBindingLib_Example-DataBindingLib-dummy.m */; };
+		B453E751046E938D94F6572C /* DataBindingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E602A8DF8680EFB537E862 /* DataBindingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0651D78B57D6FD42B6800F7 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 392367C02C98FDAD86E30BA1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C251B5E6C6A392BE1C123688 /* ViewBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC09E98655512E99B4162CA /* ViewBinder.m */; };
+		C6F9B62F8BBB9FB5773D025C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 78704D9E17EDC6BA64E78ACD /* FBSnapshotTestCasePlatform.m */; };
+		CE6E883C9599D48770952CC8 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50359B9D60C914717802C551 /* SwiftSupport.swift */; };
+		D105955D692191765C953CE9 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B43EE447804DD84489712B5 /* FBSnapshotTestCase.m */; };
+		D9F618BB7EEE6D7289DE1155 /* UIView+DataBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E706EAC7EED5FB5B0F2F01B /* UIView+DataBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3BD30D79467861573B77CA /* DataBindingLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 93086FD787AEB544049B1526 /* DataBindingLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E00FE6B3C02A84772E8DDEDF /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 691DE02058921BFACC41F1BE /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-dummy.m */; };
+		E34DB6C61E3D9978B4DCB2B0 /* Pods-DataBindingLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F2A8493307AD6DFA09F16F3 /* Pods-DataBindingLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7184AC6D71C7C657BB69138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAEDE10197A720701A27BE /* Foundation.framework */; };
+		EB7663F916399DC40DF81E2C /* DataBindingLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AD1556390B2C30B57E8F151 /* DataBindingLib.bundle */; };
+		F12DD7BE10DE6B1F0D59D79D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B39BEDDEC2356F1BC225FB /* XCTest.framework */; };
+		FF187A137AE5E8CA25B1AD3A /* Pods-DataBindingLib_Tests-DataBindingLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 897DD6697EF90C28A9CCDEED /* Pods-DataBindingLib_Tests-DataBindingLib-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096FB5A9FEB986C57B228E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5730BB78AB8BB59547B8000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1889AB1CEB6B0D98C83398DB;
+			remoteInfo = "Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib";
+		};
+		49114AA7BF3EAE7D2B0C829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5730BB78AB8BB59547B8000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0489A4370B9B6CA3645035C;
+			remoteInfo = "Pods-DataBindingLib_Tests-FBSnapshotTestCase";
+		};
+		7A83C9745F003588E2EE304E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5730BB78AB8BB59547B8000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901C0CBC4AFE77DA2F3F2458;
+			remoteInfo = "Pods-DataBindingLib_Tests-DataBindingLib";
+		};
+		877429A51D0E4CFE46D73A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5730BB78AB8BB59547B8000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED54113BC1A75B7B4C3D72C;
+			remoteInfo = "Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib";
+		};
+		E89BF566CE0B3EF535BED027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5730BB78AB8BB59547B8000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B2B1C981032D0EDDB5AB2D;
+			remoteInfo = "Pods-DataBindingLib_Example-DataBindingLib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0356618CD6F784F11149C0F8 /* Pods-DataBindingLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		08BBB505A17886A6ADCE7DA4 /* Pods-DataBindingLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataBindingLib_Example-dummy.m"; sourceTree = "<group>"; };
+		0B24A9CA7BD429468718791F /* Pods-DataBindingLib_Tests-DataBindingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBindingLib_Tests-DataBindingLib.xcconfig"; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib.xcconfig"; sourceTree = "<group>"; };
+		0F8E9947832D5B2655A96BE5 /* Pods-DataBindingLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataBindingLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		148388BFA45C824F66BCFFCE /* Pods-DataBindingLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataBindingLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		18B4FB45A08421E5CB4E34FD /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		1A5DB8DC239B2ECE0C4AB39E /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		1BB1A3CB4A02337CD0C01ECD /* Pods-DataBindingLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DataBindingLib_Tests.modulemap"; sourceTree = "<group>"; };
+		1D8036DED90B6A444B147B4F /* DataBindingLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBindingLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		23599966B988EEAD4AAEB19A /* Pods-DataBindingLib_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Tests-environment.h"; sourceTree = "<group>"; };
+		2DC09E98655512E99B4162CA /* ViewBinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewBinder.m; sourceTree = "<group>"; };
+		33E602A8DF8680EFB537E862 /* DataBindingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DataBindingUtil.h; sourceTree = "<group>"; };
+		36A0659E6E853906D2BE3609 /* Pods-DataBindingLib_Tests-DataBindingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DataBindingLib_Tests-DataBindingLib-prefix.pch"; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib-prefix.pch"; sourceTree = "<group>"; };
+		392367C02C98FDAD86E30BA1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		394A6810B808E89FC2AF354B /* Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig"; sourceTree = "<group>"; };
+		3E706EAC7EED5FB5B0F2F01B /* UIView+DataBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DataBinding.h"; sourceTree = "<group>"; };
+		4253D38733AB836270305C2A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48FB6DC59670FB3D11B31CD7 /* Pods-DataBindingLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataBindingLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		49453261804EF335A0D0AE35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Info.plist"; sourceTree = "<group>"; };
+		4A7AC117A0E10AC7742ACA9C /* Pods-DataBindingLib_Example-DataBindingLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Example-DataBindingLib-umbrella.h"; sourceTree = "<group>"; };
+		4EAB6DB811634A2A1310D89A /* Pods-DataBindingLib_Tests-DataBindingLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-DataBindingLib_Tests-DataBindingLib.modulemap"; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib.modulemap"; sourceTree = "<group>"; };
+		50359B9D60C914717802C551 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		54D28954682372CFA3762DE0 /* Pods-DataBindingLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataBindingLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5A4DFF0D11E55AC4AA588736 /* Pods_DataBindingLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBindingLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B43EE447804DD84489712B5 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		5F78D39043CB9AD057273E1B /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		6437CF49085EE2049EEA9B44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67355A236332FF900FAFAB82 /* Pods-DataBindingLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		691DE02058921BFACC41F1BE /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataBindingLib_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		6C38D6625F990993AEB81AFC /* Pods-DataBindingLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6E94DBECCC01CE6B0A711BA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB3A0414A2FF61F5D281CE8 /* Pods-DataBindingLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataBindingLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7077DBA7C455869449DD39C8 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		75D0429659B1672999B26CEB /* UIView+DataBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DataBinding.m"; sourceTree = "<group>"; };
+		764C0DEF64285FD69C8809F1 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		78704D9E17EDC6BA64E78ACD /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		7AD1556390B2C30B57E8F151 /* DataBindingLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBindingLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE0C7F16DC17ACA4DCC2D5F /* Pods-DataBindingLib_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DataBindingLib_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		7DCAEDE10197A720701A27BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F2A8493307AD6DFA09F16F3 /* Pods-DataBindingLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		80B39BEDDEC2356F1BC225FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86E9C4384A1A9622E462051C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		897DD6697EF90C28A9CCDEED /* Pods-DataBindingLib_Tests-DataBindingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-DataBindingLib_Tests-DataBindingLib-dummy.m"; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib-dummy.m"; sourceTree = "<group>"; };
+		8BE43E70005BF5A9912D82F6 /* Pods_DataBindingLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBindingLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D56A6D6B8E8C0A31833C53 /* Pods-DataBindingLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		919A6CAE5A5BE9D11227EA2C /* Pods-DataBindingLib_Example-DataBindingLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataBindingLib_Example-DataBindingLib-dummy.m"; sourceTree = "<group>"; };
+		93086FD787AEB544049B1526 /* DataBindingLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DataBindingLib.h; sourceTree = "<group>"; };
+		93AECBD75D00F69221AB8A14 /* Pods-DataBindingLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataBindingLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93BD5751F93B795C3E79974A /* Pods-DataBindingLib_Example-DataBindingLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DataBindingLib_Example-DataBindingLib.modulemap"; sourceTree = "<group>"; };
+		9685BAFAC1AC45D40FDFD6E8 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D5B7E63A2153E8230EA194 /* Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h"; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h"; sourceTree = "<group>"; };
+		9F73A8F370864C9DA97C06D0 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		A80160883EF95BDB652FC832 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		A92028F72763692817871080 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		ABFA7CFC7CEE5C3546678657 /* Pods-DataBindingLib_Example-DataBindingLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Example-DataBindingLib-prefix.pch"; sourceTree = "<group>"; };
+		AEA95B6D50FA013118E7BCEB /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		B1FB788AAFDB4A013F8ADB55 /* DataBindingUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DataBindingUtil.m; sourceTree = "<group>"; };
+		B33811125570C714DC11072F /* Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig"; path = "../Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig"; sourceTree = "<group>"; };
+		BA2E5D8BB21714D93CB3A14C /* DataBindingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataBindingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD227CF0933DE507AD4D99A0 /* ViewBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewBinder.h; sourceTree = "<group>"; };
+		CDD1CA62BB552550EDC81B61 /* DataBindingLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataBindingLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85957A43CCCED8D0089552 /* Pods-DataBindingLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataBindingLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFCD487C98FD5EFEC3DC641B /* Pods-DataBindingLib_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Example-environment.h"; sourceTree = "<group>"; };
+		D05F48060259F308E02FF609 /* Pods-DataBindingLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataBindingLib_Example-resources.sh"; sourceTree = "<group>"; };
+		D41BD3A6D015A7401B375D61 /* Pods-DataBindingLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB553382879B99D593257CEA /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		DE4D7E429C18B43ACA2A56B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9998BC234B7FEC52E4FD9CF /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		EBB0F64AF1A36923F4968789 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF83111772C6E29A905E800E /* Pods-DataBindingLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataBindingLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		F20312198D15E6A831D94A2C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataBindingLib_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		F46016ECAFA1570882DF9C80 /* Pods-DataBindingLib_Example-DataBindingLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataBindingLib_Example-DataBindingLib.xcconfig"; sourceTree = "<group>"; };
+		FBD3AA417DD74F7ED48A919A /* Pods-DataBindingLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DataBindingLib_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508BAF216A51D218C2DB3F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747A699FDFC703C7484F34F7 /* Foundation.framework in Frameworks */,
+				F12DD7BE10DE6B1F0D59D79D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54ED96102110623C5A02F1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EB03A7E4D002ED6CBD0E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65350E950AA544A92E9FB948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63593DC248EE21A39D5423B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7511142639F96675F4F3D3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7FC1EA53F021E171506F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7184AC6D71C7C657BB69138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882B0507E3C264E6B3EB17F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EF0203C3BD347BB109A48A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5C5BF343C5E9E97367B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2330E0D20D3F256D932DF852 /* Pods-DataBindingLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB0F64AF1A36923F4968789 /* Info.plist */,
+				1BB1A3CB4A02337CD0C01ECD /* Pods-DataBindingLib_Tests.modulemap */,
+				93AECBD75D00F69221AB8A14 /* Pods-DataBindingLib_Tests-acknowledgements.markdown */,
+				CE85957A43CCCED8D0089552 /* Pods-DataBindingLib_Tests-acknowledgements.plist */,
+				0F8E9947832D5B2655A96BE5 /* Pods-DataBindingLib_Tests-dummy.m */,
+				23599966B988EEAD4AAEB19A /* Pods-DataBindingLib_Tests-environment.h */,
+				148388BFA45C824F66BCFFCE /* Pods-DataBindingLib_Tests-frameworks.sh */,
+				EF83111772C6E29A905E800E /* Pods-DataBindingLib_Tests-resources.sh */,
+				90D56A6D6B8E8C0A31833C53 /* Pods-DataBindingLib_Tests-umbrella.h */,
+				67355A236332FF900FAFAB82 /* Pods-DataBindingLib_Tests.debug.xcconfig */,
+				6C38D6625F990993AEB81AFC /* Pods-DataBindingLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-DataBindingLib_Tests";
+			path = "Target Support Files/Pods-DataBindingLib_Tests";
+			sourceTree = "<group>";
+		};
+		342B1B2D3A05772AC25D9D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AD1556390B2C30B57E8F151 /* DataBindingLib.bundle */,
+				1D8036DED90B6A444B147B4F /* DataBindingLib.bundle */,
+				CDD1CA62BB552550EDC81B61 /* DataBindingLib.framework */,
+				BA2E5D8BB21714D93CB3A14C /* DataBindingLib.framework */,
+				9685BAFAC1AC45D40FDFD6E8 /* FBSnapshotTestCase.framework */,
+				8BE43E70005BF5A9912D82F6 /* Pods_DataBindingLib_Example.framework */,
+				5A4DFF0D11E55AC4AA588736 /* Pods_DataBindingLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDD9555851E9801F38F0705 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F921D52D6437BF60A73C9451 /* Core */,
+				6C1A4740D3308BFE8B0DA603 /* Support Files */,
+				F0BD23F6985EDFB988C44249 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		5FEFE44C421D7D089B1DF5E9 = {
+			isa = PBXGroup;
+			children = (
+				4253D38733AB836270305C2A /* Podfile */,
+				D34A29E6E9E84F85E9C7A1DD /* Development Pods */,
+				C8CD05AF91C867E1557B20BE /* Frameworks */,
+				8B37F7C9A02E8D3CE05E004B /* Pods */,
+				342B1B2D3A05772AC25D9D38 /* Products */,
+				C2B1BA2DD7C96C99C043C5B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6C1A4740D3308BFE8B0DA603 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6437CF49085EE2049EEA9B44 /* Info.plist */,
+				7AE0C7F16DC17ACA4DCC2D5F /* Pods-DataBindingLib_Tests-FBSnapshotTestCase.modulemap */,
+				86E9C4384A1A9622E462051C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase.xcconfig */,
+				18B4FB45A08421E5CB4E34FD /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				691DE02058921BFACC41F1BE /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-dummy.m */,
+				DB553382879B99D593257CEA /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-prefix.pch */,
+				F20312198D15E6A831D94A2C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		892686C423784FAE45F964B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EAE78DCA4F12FB455A226FA4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		8B37F7C9A02E8D3CE05E004B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FDD9555851E9801F38F0705 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FBA52B1665F188D767FCCF7 /* DataBindingLib */ = {
+			isa = PBXGroup;
+			children = (
+				892686C423784FAE45F964B1 /* Pod */,
+				A63A2C5DBCB6EE82023413F6 /* Support Files */,
+			);
+			name = DataBindingLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A63A2C5DBCB6EE82023413F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D7E429C18B43ACA2A56B4 /* Info.plist */,
+				49453261804EF335A0D0AE35 /* Info.plist */,
+				93BD5751F93B795C3E79974A /* Pods-DataBindingLib_Example-DataBindingLib.modulemap */,
+				F46016ECAFA1570882DF9C80 /* Pods-DataBindingLib_Example-DataBindingLib.xcconfig */,
+				394A6810B808E89FC2AF354B /* Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig */,
+				919A6CAE5A5BE9D11227EA2C /* Pods-DataBindingLib_Example-DataBindingLib-dummy.m */,
+				ABFA7CFC7CEE5C3546678657 /* Pods-DataBindingLib_Example-DataBindingLib-prefix.pch */,
+				4A7AC117A0E10AC7742ACA9C /* Pods-DataBindingLib_Example-DataBindingLib-umbrella.h */,
+				4EAB6DB811634A2A1310D89A /* Pods-DataBindingLib_Tests-DataBindingLib.modulemap */,
+				0B24A9CA7BD429468718791F /* Pods-DataBindingLib_Tests-DataBindingLib.xcconfig */,
+				B33811125570C714DC11072F /* Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig */,
+				897DD6697EF90C28A9CCDEED /* Pods-DataBindingLib_Tests-DataBindingLib-dummy.m */,
+				36A0659E6E853906D2BE3609 /* Pods-DataBindingLib_Tests-DataBindingLib-prefix.pch */,
+				96D5B7E63A2153E8230EA194 /* Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DataBindingLib_Example-DataBindingLib";
+			sourceTree = "<group>";
+		};
+		AAA4366748C4B6E059994227 /* Pods-DataBindingLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E94DBECCC01CE6B0A711BA0 /* Info.plist */,
+				FBD3AA417DD74F7ED48A919A /* Pods-DataBindingLib_Example.modulemap */,
+				6EB3A0414A2FF61F5D281CE8 /* Pods-DataBindingLib_Example-acknowledgements.markdown */,
+				48FB6DC59670FB3D11B31CD7 /* Pods-DataBindingLib_Example-acknowledgements.plist */,
+				08BBB505A17886A6ADCE7DA4 /* Pods-DataBindingLib_Example-dummy.m */,
+				CFCD487C98FD5EFEC3DC641B /* Pods-DataBindingLib_Example-environment.h */,
+				54D28954682372CFA3762DE0 /* Pods-DataBindingLib_Example-frameworks.sh */,
+				D05F48060259F308E02FF609 /* Pods-DataBindingLib_Example-resources.sh */,
+				7F2A8493307AD6DFA09F16F3 /* Pods-DataBindingLib_Example-umbrella.h */,
+				D41BD3A6D015A7401B375D61 /* Pods-DataBindingLib_Example.debug.xcconfig */,
+				0356618CD6F784F11149C0F8 /* Pods-DataBindingLib_Example.release.xcconfig */,
+			);
+			name = "Pods-DataBindingLib_Example";
+			path = "Target Support Files/Pods-DataBindingLib_Example";
+			sourceTree = "<group>";
+		};
+		C2B1BA2DD7C96C99C043C5B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4366748C4B6E059994227 /* Pods-DataBindingLib_Example */,
+				2330E0D20D3F256D932DF852 /* Pods-DataBindingLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8CD05AF91C867E1557B20BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA0815B7C0B48B20EDC6A03 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA0815B7C0B48B20EDC6A03 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7DCAEDE10197A720701A27BE /* Foundation.framework */,
+				80B39BEDDEC2356F1BC225FB /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D34A29E6E9E84F85E9C7A1DD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBA52B1665F188D767FCCF7 /* DataBindingLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EAE78DCA4F12FB455A226FA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93086FD787AEB544049B1526 /* DataBindingLib.h */,
+				33E602A8DF8680EFB537E862 /* DataBindingUtil.h */,
+				B1FB788AAFDB4A013F8ADB55 /* DataBindingUtil.m */,
+				3E706EAC7EED5FB5B0F2F01B /* UIView+DataBinding.h */,
+				75D0429659B1672999B26CEB /* UIView+DataBinding.m */,
+				BD227CF0933DE507AD4D99A0 /* ViewBinder.h */,
+				2DC09E98655512E99B4162CA /* ViewBinder.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0BD23F6985EDFB988C44249 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				50359B9D60C914717802C551 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		F921D52D6437BF60A73C9451 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				392367C02C98FDAD86E30BA1 /* FBSnapshotTestCase.h */,
+				5B43EE447804DD84489712B5 /* FBSnapshotTestCase.m */,
+				9F73A8F370864C9DA97C06D0 /* FBSnapshotTestCasePlatform.h */,
+				78704D9E17EDC6BA64E78ACD /* FBSnapshotTestCasePlatform.m */,
+				7077DBA7C455869449DD39C8 /* FBSnapshotTestController.h */,
+				1A5DB8DC239B2ECE0C4AB39E /* FBSnapshotTestController.m */,
+				AEA95B6D50FA013118E7BCEB /* UIImage+Compare.h */,
+				5F78D39043CB9AD057273E1B /* UIImage+Compare.m */,
+				764C0DEF64285FD69C8809F1 /* UIImage+Diff.h */,
+				A92028F72763692817871080 /* UIImage+Diff.m */,
+				A80160883EF95BDB652FC832 /* UIImage+Snapshot.h */,
+				E9998BC234B7FEC52E4FD9CF /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BEA82B62EB02050BAA216C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0651D78B57D6FD42B6800F7 /* FBSnapshotTestCase.h in Headers */,
+				497DC85447B08625FEAF80F8 /* FBSnapshotTestCasePlatform.h in Headers */,
+				8CA4A5FB8C7708EB195978D1 /* FBSnapshotTestController.h in Headers */,
+				2A0A6CB041B05A52E433446C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				470B63ADEDF2FADFA51BD6C0 /* UIImage+Compare.h in Headers */,
+				2E065D7DC4D33CDC89415AC1 /* UIImage+Diff.h in Headers */,
+				78E7994DB3A9C5FE22ECB29B /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA314C69E538A27553F6D72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3BD30D79467861573B77CA /* DataBindingLib.h in Headers */,
+				6F4D9F17CD1C81E13F6DFB48 /* DataBindingUtil.h in Headers */,
+				735B9098371603CED6B56D43 /* Pods-DataBindingLib_Tests-DataBindingLib-umbrella.h in Headers */,
+				D9F618BB7EEE6D7289DE1155 /* UIView+DataBinding.h in Headers */,
+				54C525334639BA080CF24BF6 /* ViewBinder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68520ABBB632D1DF39D20A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61327A7E4FA53C07BC2F65BF /* Pods-DataBindingLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8728D251B46E2BD840027C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34DB6C61E3D9978B4DCB2B0 /* Pods-DataBindingLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45331979D84F016191EF7D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD02851ABC458DDC462A62D /* DataBindingLib.h in Headers */,
+				B453E751046E938D94F6572C /* DataBindingUtil.h in Headers */,
+				401B66E88C7E0ED748D94AE2 /* Pods-DataBindingLib_Example-DataBindingLib-umbrella.h in Headers */,
+				1FFB23CF6E28D337F1684608 /* UIView+DataBinding.h in Headers */,
+				A883E421339561983D9384DA /* ViewBinder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		040362C1455686675C4E6BED /* Pods-DataBindingLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA90ACE081F6A5853387306 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Example" */;
+			buildPhases = (
+				33B9412682F26A8178561B7B /* Sources */,
+				54ED96102110623C5A02F1DA /* Frameworks */,
+				A8728D251B46E2BD840027C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0E9820B8A3E84AEC3FCDFC /* PBXTargetDependency */,
+			);
+			name = "Pods-DataBindingLib_Example";
+			productName = "Pods-DataBindingLib_Example";
+			productReference = 8BE43E70005BF5A9912D82F6 /* Pods_DataBindingLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0ED54113BC1A75B7B4C3D72C /* Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA18CCD901C654BED74DD1D /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib" */;
+			buildPhases = (
+				61F0E95EDECD0F10CD6B9C98 /* Sources */,
+				7511142639F96675F4F3D3B1 /* Frameworks */,
+				C4274C9E92AF083BD0016F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib";
+			productName = "Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib";
+			productReference = 1D8036DED90B6A444B147B4F /* DataBindingLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1889AB1CEB6B0D98C83398DB /* Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3AB439E25A9CA0D2785942 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib" */;
+			buildPhases = (
+				6971286EB5A802F0AFDEB091 /* Sources */,
+				96C5C5BF343C5E9E97367B65 /* Frameworks */,
+				8CA46B2327368B0AC2B5976E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib";
+			productName = "Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib";
+			productReference = 7AD1556390B2C30B57E8F151 /* DataBindingLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		68B2B1C981032D0EDDB5AB2D /* Pods-DataBindingLib_Example-DataBindingLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7988BBA42ECF6C287CF70258 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Example-DataBindingLib" */;
+			buildPhases = (
+				3079D4C28384384EAF64C419 /* Sources */,
+				882B0507E3C264E6B3EB17F2 /* Frameworks */,
+				CA8A28824422D7117B581C59 /* Resources */,
+				E45331979D84F016191EF7D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A7A7DA537C449EEFB6F08C /* PBXTargetDependency */,
+			);
+			name = "Pods-DataBindingLib_Example-DataBindingLib";
+			productName = "Pods-DataBindingLib_Example-DataBindingLib";
+			productReference = CDD1CA62BB552550EDC81B61 /* DataBindingLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		901C0CBC4AFE77DA2F3F2458 /* Pods-DataBindingLib_Tests-DataBindingLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E7E2944F71197DCE0491BD /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests-DataBindingLib" */;
+			buildPhases = (
+				8BBFCA78C653AD00667DA9C3 /* Sources */,
+				7A7FC1EA53F021E171506F23 /* Frameworks */,
+				6B7C43EF6C87929D3EF53421 /* Resources */,
+				0FA314C69E538A27553F6D72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603E7FFB74B67DC2C4A67D6E /* PBXTargetDependency */,
+			);
+			name = "Pods-DataBindingLib_Tests-DataBindingLib";
+			productName = "Pods-DataBindingLib_Tests-DataBindingLib";
+			productReference = BA2E5D8BB21714D93CB3A14C /* DataBindingLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0489A4370B9B6CA3645035C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213AA1DE9F51795226A2E597 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				55BC1BBB498FAB486DEA07D9 /* Sources */,
+				508BAF216A51D218C2DB3F83 /* Frameworks */,
+				0BEA82B62EB02050BAA216C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DataBindingLib_Tests-FBSnapshotTestCase";
+			productName = "Pods-DataBindingLib_Tests-FBSnapshotTestCase";
+			productReference = 9685BAFAC1AC45D40FDFD6E8 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA4FBE6FA506523F91F93133 /* Pods-DataBindingLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32EDFDB1D5CC5864375B736 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests" */;
+			buildPhases = (
+				E64F4B55B65485770B2CDA38 /* Sources */,
+				65350E950AA544A92E9FB948 /* Frameworks */,
+				68520ABBB632D1DF39D20A9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147F0166CC99D53D6DC216BC /* PBXTargetDependency */,
+				232104FD0299BFCE02270472 /* PBXTargetDependency */,
+			);
+			name = "Pods-DataBindingLib_Tests";
+			productName = "Pods-DataBindingLib_Tests";
+			productReference = 5A4DFF0D11E55AC4AA588736 /* Pods_DataBindingLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5730BB78AB8BB59547B8000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 76A613F9FD126285FBAFB680 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FEFE44C421D7D089B1DF5E9;
+			productRefGroup = 342B1B2D3A05772AC25D9D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040362C1455686675C4E6BED /* Pods-DataBindingLib_Example */,
+				68B2B1C981032D0EDDB5AB2D /* Pods-DataBindingLib_Example-DataBindingLib */,
+				0ED54113BC1A75B7B4C3D72C /* Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib */,
+				FA4FBE6FA506523F91F93133 /* Pods-DataBindingLib_Tests */,
+				901C0CBC4AFE77DA2F3F2458 /* Pods-DataBindingLib_Tests-DataBindingLib */,
+				1889AB1CEB6B0D98C83398DB /* Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib */,
+				E0489A4370B9B6CA3645035C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B7C43EF6C87929D3EF53421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7663F916399DC40DF81E2C /* DataBindingLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA46B2327368B0AC2B5976E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4274C9E92AF083BD0016F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8A28824422D7117B581C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86495B50D37F9189954CBDDF /* DataBindingLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3079D4C28384384EAF64C419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399DD2D15B81505CF6C3F25D /* DataBindingUtil.m in Sources */,
+				B09BA62D55FEA7FA50635F68 /* Pods-DataBindingLib_Example-DataBindingLib-dummy.m in Sources */,
+				A0C51B0B857F4886BD61FC74 /* UIView+DataBinding.m in Sources */,
+				2675AF7FD8C9C1F841C7753A /* ViewBinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B9412682F26A8178561B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6CB50851947A610C683569 /* Pods-DataBindingLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BC1BBB498FAB486DEA07D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D105955D692191765C953CE9 /* FBSnapshotTestCase.m in Sources */,
+				C6F9B62F8BBB9FB5773D025C /* FBSnapshotTestCasePlatform.m in Sources */,
+				6256C78DBE66C89345C6FE96 /* FBSnapshotTestController.m in Sources */,
+				E00FE6B3C02A84772E8DDEDF /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				CE6E883C9599D48770952CC8 /* SwiftSupport.swift in Sources */,
+				9CACACC21B3C6F3AA1433129 /* UIImage+Compare.m in Sources */,
+				933D2E813FD01FDB85D957DF /* UIImage+Diff.m in Sources */,
+				4A2FE002965CA54B5E1E830E /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F0E95EDECD0F10CD6B9C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6971286EB5A802F0AFDEB091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBFCA78C653AD00667DA9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806993486898CAB5A702B220 /* DataBindingUtil.m in Sources */,
+				FF187A137AE5E8CA25B1AD3A /* Pods-DataBindingLib_Tests-DataBindingLib-dummy.m in Sources */,
+				3678CB1FE6D2B25535A0AE7D /* UIView+DataBinding.m in Sources */,
+				C251B5E6C6A392BE1C123688 /* ViewBinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64F4B55B65485770B2CDA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0A0CEEF0C7367B085CCCDB /* Pods-DataBindingLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A7A7DA537C449EEFB6F08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib";
+			target = 0ED54113BC1A75B7B4C3D72C /* Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib */;
+			targetProxy = 877429A51D0E4CFE46D73A27 /* PBXContainerItemProxy */;
+		};
+		147F0166CC99D53D6DC216BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DataBindingLib_Tests-DataBindingLib";
+			target = 901C0CBC4AFE77DA2F3F2458 /* Pods-DataBindingLib_Tests-DataBindingLib */;
+			targetProxy = 7A83C9745F003588E2EE304E /* PBXContainerItemProxy */;
+		};
+		232104FD0299BFCE02270472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DataBindingLib_Tests-FBSnapshotTestCase";
+			target = E0489A4370B9B6CA3645035C /* Pods-DataBindingLib_Tests-FBSnapshotTestCase */;
+			targetProxy = 49114AA7BF3EAE7D2B0C829D /* PBXContainerItemProxy */;
+		};
+		603E7FFB74B67DC2C4A67D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib";
+			target = 1889AB1CEB6B0D98C83398DB /* Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib */;
+			targetProxy = 096FB5A9FEB986C57B228E58 /* PBXContainerItemProxy */;
+		};
+		DC0E9820B8A3E84AEC3FCDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DataBindingLib_Example-DataBindingLib";
+			target = 68B2B1C981032D0EDDB5AB2D /* Pods-DataBindingLib_Example-DataBindingLib */;
+			targetProxy = E89BF566CE0B3EF535BED027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		003CF83A71B521E93461F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C38D6625F990993AEB81AFC /* Pods-DataBindingLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Tests/Pods-DataBindingLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DataBindingLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01AECCA13F83BE54227A4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394A6810B808E89FC2AF354B /* Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DataBindingLib_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1685B81797FA717ADEE4CBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0356618CD6F784F11149C0F8 /* Pods-DataBindingLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Example/Pods-DataBindingLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DataBindingLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17AD7962FDE4F8599C483ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394A6810B808E89FC2AF354B /* Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DataBindingLib_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2891A682A10FAB891D64ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33811125570C714DC11072F /* Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DataBindingLib_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		473FFEE2049047344922B46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B4FB45A08421E5CB4E34FD /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase/Pods-DataBindingLib_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase/Pods-DataBindingLib_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		519490C78482E34F079BF6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67355A236332FF900FAFAB82 /* Pods-DataBindingLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Tests/Pods-DataBindingLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DataBindingLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		670D32A69DF95C905B943134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B4FB45A08421E5CB4E34FD /* Pods-DataBindingLib_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase/Pods-DataBindingLib_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Tests-FBSnapshotTestCase/Pods-DataBindingLib_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F6F8E4D7700B61249032D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394A6810B808E89FC2AF354B /* Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DataBindingLib_Example-DataBindingLib/Pods-DataBindingLib_Example-DataBindingLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Example-DataBindingLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Example-DataBindingLib/Pods-DataBindingLib_Example-DataBindingLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		925BF08B1EAD3ABC93420B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A7BBB9A98FAFD913F6265D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41BD3A6D015A7401B375D61 /* Pods-DataBindingLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Example/Pods-DataBindingLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DataBindingLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A353780369039FDA6B8D6F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394A6810B808E89FC2AF354B /* Pods-DataBindingLib_Example-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DataBindingLib_Example-DataBindingLib/Pods-DataBindingLib_Example-DataBindingLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Example-DataBindingLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Example-DataBindingLib/Pods-DataBindingLib_Example-DataBindingLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA46176F51B61840312204B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E0A72CD1FE725D70DDD354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33811125570C714DC11072F /* Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DataBindingLib_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FB25C596B245271BA5C19FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33811125570C714DC11072F /* Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Tests-DataBindingLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE7E47651DB71B2A192BB015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33811125570C714DC11072F /* Pods-DataBindingLib_Tests-DataBindingLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataBindingLib_Tests-DataBindingLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DataBindingLib_Tests-DataBindingLib/Pods-DataBindingLib_Tests-DataBindingLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DataBindingLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		213AA1DE9F51795226A2E597 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473FFEE2049047344922B46E /* Debug */,
+				670D32A69DF95C905B943134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA18CCD901C654BED74DD1D /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Example-DataBindingLib-DataBindingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AECCA13F83BE54227A4B3E /* Debug */,
+				17AD7962FDE4F8599C483ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A613F9FD126285FBAFB680 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925BF08B1EAD3ABC93420B62 /* Debug */,
+				DA46176F51B61840312204B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7988BBA42ECF6C287CF70258 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Example-DataBindingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6F8E4D7700B61249032D51 /* Debug */,
+				A353780369039FDA6B8D6F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E7E2944F71197DCE0491BD /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests-DataBindingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7E47651DB71B2A192BB015 /* Debug */,
+				FB25C596B245271BA5C19FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA90ACE081F6A5853387306 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7BBB9A98FAFD913F6265D5 /* Debug */,
+				1685B81797FA717ADEE4CBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32EDFDB1D5CC5864375B736 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519490C78482E34F079BF6C7 /* Debug */,
+				003CF83A71B521E93461F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3AB439E25A9CA0D2785942 /* Build configuration list for PBXNativeTarget "Pods-DataBindingLib_Tests-DataBindingLib-DataBindingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E0A72CD1FE725D70DDD354 /* Debug */,
+				2891A682A10FAB891D64ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5730BB78AB8BB59547B8000 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module DataBindingLib {
+  umbrella header "Pods-DataBindingLib_Example-DataBindingLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
