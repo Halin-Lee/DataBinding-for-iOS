@@ -29,7 +29,6 @@
     return singleton;
 }
 
-//SINGLETON_FOR_CLASS(DataBindingUtil)
 
 - (instancetype)init
 {
