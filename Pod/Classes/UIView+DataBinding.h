@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+
+static NSString *const BIND_PATH = @"BindPath:";
+
+static NSString *const BIND_TYPE = @"BindType";
+
+static NSString *const BIND_ID = @"BindID";
+
+
 @interface UIView(DataBinding)
+
+
 
 @end

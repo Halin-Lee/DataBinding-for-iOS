@@ -23,7 +23,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="BindMethod:string" value="setText:"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindPath:string" value="text"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="BindType" value="ExampleModel"/>
                                 </userDefinedRuntimeAttributes>
                             </label>

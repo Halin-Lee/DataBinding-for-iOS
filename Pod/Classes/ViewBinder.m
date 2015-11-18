@@ -29,7 +29,8 @@
     }else{
         NSString *method = _fieldMethodDictionary[keyPath];
         //监听正常时调用setter
-        [_view performSelector:NSSelectorFromString(method) withObject:[_model valueForKey:keyPath]];
+//        [_view performSelector:NSSelectorFromString(method) withObject:[_model valueForKey:keyPath]];
+        [_view setValue:[_model valueForKey:keyPath] forKeyPath:method];
     }
     
 }
