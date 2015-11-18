@@ -25,6 +25,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="BindPath:string" value="text"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="BindType" value="ExampleModel"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindPath:color" value="backgroundColor"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>

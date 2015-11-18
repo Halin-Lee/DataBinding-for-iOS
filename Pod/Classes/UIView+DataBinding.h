@@ -17,7 +17,4 @@ static NSString *const BIND_ID = @"BindID";
 
 
 @interface UIView(DataBinding)
-
-
-
 @end

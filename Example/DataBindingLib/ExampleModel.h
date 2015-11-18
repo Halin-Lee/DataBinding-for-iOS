@@ -10,4 +10,5 @@
 
 @interface ExampleModel : NSObject
 @property (nonatomic,copy) NSString *string;
+@property (nonatomic,strong) UIColor *color;
 @end
