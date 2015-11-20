@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 //#import "Singleton.h"
 
+@protocol IdentifierModel <NSObject>
+@required
+- (NSString *)identifier;
+
+@end
+
+
 @interface DataBindingUtil : NSObject
 //SINGLETON_FOR_HEADER(DataBindingUtil)
 + (DataBindingUtil *)dataBindingUtil;
@@ -19,6 +26,9 @@
 
 /**为view绑定指定的binding类型*/
 - (void)addModelType:(NSString *)modelType forView:(UIView *)view;
+
+/**为view绑定identifier*/
+- (void)addModelIdentifier:(NSString *)identifier forView:(UIView *)view;
 
 /**添加bind的view*/
 - (void)bindModel:(id)model forView:(UIView *)view;

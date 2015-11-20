@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPj-Ze-uIW">
-                                <rect key="frame" x="279" y="290" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm not specify an id,so ExampleModel can bind on me" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPj-Ze-uIW">
+                                <rect key="frame" x="89" y="290" width="422" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -28,10 +28,37 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="BindPath:color" value="backgroundColor"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="I have the same id with ExampleModel,so i will be change by model" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDI-UI-lUk">
+                                <rect key="frame" x="279" y="402" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindPath:string" value="text"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindType" value="ExampleModel"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindPath:color" value="backgroundColor"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindID" value="id"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="My id is different to model's id,so i can't bind" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAL-nG-LS1">
+                                <rect key="frame" x="128" y="122" width="345" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindPath:string" value="text"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindType" value="ExampleModel"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindPath:color" value="backgroundColor"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BindID" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="GPj-Ze-uIW" secondAttribute="centerY" constant="-0.5" id="AKS-u9-NWN"/>
+                            <constraint firstAttribute="centerX" secondItem="yDI-UI-lUk" secondAttribute="centerX" id="FBq-wa-dES"/>
+                            <constraint firstAttribute="width" secondItem="tAL-nG-LS1" secondAttribute="width" id="KVB-nu-XjU"/>
+                            <constraint firstAttribute="centerX" secondItem="tAL-nG-LS1" secondAttribute="centerX" constant="-0.5" id="Tvv-Tw-VmE"/>
                             <constraint firstAttribute="centerX" secondItem="GPj-Ze-uIW" secondAttribute="centerX" id="Uzk-cu-frG"/>
                         </constraints>
                     </view>

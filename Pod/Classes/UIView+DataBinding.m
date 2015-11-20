@@ -20,9 +20,13 @@
         NSString *method = value;
         [[DataBindingUtil dataBindingUtil] addBindingField:field bindingMethod:method forView:self];
         
-    }else if([key containsString:BIND_TYPE]){
+    }else if([key isEqualToString:BIND_TYPE]){
         //设置绑定类型
         [[DataBindingUtil dataBindingUtil] addModelType:value forView:self];
+        
+    }else if([key isEqualToString:BIND_ID]){
+        //设置绑定id
+        [[DataBindingUtil dataBindingUtil] addModelIdentifier:value forView:self];
         
     }else {
         [super setValue:value forKey:key];

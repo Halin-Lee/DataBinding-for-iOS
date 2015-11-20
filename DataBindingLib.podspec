@@ -16,7 +16,13 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description      = "Data Binding for iOS,this is a lib like android Data Binding http://developer.android.com/tools/data-binding/guide.html"
+s.description      = "这是一个参考自Android DataBinding (http://developer.android.com/tools/data-binding/guide.html) 的库,其用法与Android 的 DataBinding非常相似 通过 xib 的 User Defined Runtime Attributes 实现对model的绑定(类似于Android xml 的 binding),设置绑定模型与绑定方法,
+
+This is a lib base on 'Android DataBinding' (http://developer.android.com/tools/data-binding/guide.html) , It use like Android DataBinding , You can bind model and method through 'User Defined Runtime Attributes'
+
+Forgive my poor English , There is no English Document and Notes , but if you interested ,just send me a Email,i will tell you how to use and how it work . and hopely you can help me to write English document and notes... My Email address : d.halin.lee@gmail.com
+
+"
 
   s.homepage         = "https://github.com/Halin-Lee/DataBinding-for-iOS"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

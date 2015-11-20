@@ -21,12 +21,14 @@
     
     //构造一个model并绑定到view上,DataBindingUtil将自动遍历所有的view实现绑定
     _exampleModel = [[ExampleModel alloc] init];
+        _exampleModel.identifier = @"id";
+    [[DataBindingUtil dataBindingUtil] bindModel:_exampleModel forView:self.view];
     [[DataBindingUtil dataBindingUtil] bindModel:_exampleModel forView:self.view];
     
     //赋初始值
     _exampleModel.string = @"Test Start";
     _exampleModel.color = [UIColor greenColor];
-    
+
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         //延时修改,view上文本随之修改

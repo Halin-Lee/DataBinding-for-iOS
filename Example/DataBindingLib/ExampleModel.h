@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface ExampleModel : NSObject
+#import <DataBindingLib/DataBindingLib.h>
+@interface ExampleModel : NSObject <IdentifierModel>
 @property (nonatomic,copy) NSString *string;
 @property (nonatomic,strong) UIColor *color;
+@property (nonatomic,copy) NSString *identifier;
 @end

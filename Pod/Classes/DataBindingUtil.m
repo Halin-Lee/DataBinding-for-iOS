@@ -34,7 +34,7 @@
 {
     self = [super init];
     if (self) {
-            _bindingTable = [NSMapTable weakToStrongObjectsMapTable];
+        _bindingTable = [NSMapTable weakToStrongObjectsMapTable];
     }
     return self;
 }
@@ -50,6 +50,12 @@
 - (void)addModelType:(NSString *)modelType forView:(UIView *)view{
     ViewBinder *binding = [self binderForView:view];
     binding.modelType = modelType;
+}
+
+/**为view绑定identifier*/
+- (void)addModelIdentifier:(NSString *)identifier forView:(UIView *)view{
+    ViewBinder *binding = [self binderForView:view];
+    binding.identifier = identifier;
 }
 
 - (ViewBinder *)binderForView:(UIView *)view{
@@ -70,7 +76,11 @@
         //view存在binding
         if ([model isKindOfClass:NSClassFromString(binding.modelType)]) {
             //model类型与binding期望的类型相同,绑定
-            [binding bind:model];
+            if (!binding.identifier || ([model conformsToProtocol:@protocol(IdentifierModel)] && [binding.identifier isEqualToString:[model identifier]])) {
+                
+                //binding不需要指定identifier 或者 binding 指定id与model的identifier相同,绑定
+                [binding bind:model];
+            }
         }
     }
     

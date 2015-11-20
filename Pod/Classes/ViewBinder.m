@@ -37,7 +37,7 @@
 
 - (void)bind:(id)model{
     if (_model) {
-        [NSException raise:@"重复绑定Model错误" format:@"viewBinder已存在model :%@ ,尝试绑定model :%@", _model , model];
+        //已经有model绑定,跳过
         return;
     }
     _model = model;

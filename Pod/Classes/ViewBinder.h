@@ -20,6 +20,9 @@
 /**要监听的类型*/
 @property (nonatomic,copy) NSString *modelType;
 
+/**识别id*/
+@property (nonatomic,copy) NSString *identifier;
+
 /**key:field,监听哪个属性 value:method,属性变化时执行的方法 保存监听的field和method的字典*/
 @property (nonatomic,strong) NSMutableDictionary *fieldMethodDictionary;
 
