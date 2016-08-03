@@ -8,9 +8,17 @@
 
 #import "UIView+DataBinding.h"
 #import "DataBindingUtil.h"
+#import <objc/runtime.h>
 @implementation UIView(DataBinding)
 
-- (void)setValue:(id)value forKey:(NSString *)key{
++ (void)load{
+    Method overridedMethod = class_getInstanceMethod([UIView class], @selector(overridedSetValue:forKey:));
+    Method originalMehtod = class_getInstanceMethod([UIView class], @selector(setValue:forKey:));
+    method_exchangeImplementations(overridedMethod, originalMehtod);
+}
+
+
+- (void)overridedSetValue:(id)value forKey:(NSString *)key{
     
     //覆盖UIView原本的set事件,拦截BindMethod和BindType
     
@@ -29,7 +37,7 @@
         [[DataBindingUtil dataBindingUtil] addModelIdentifier:value forView:self];
         
     }else {
-        [super setValue:value forKey:key];
+        [self overridedSetValue:value forKey:key];
     }
 }
 
