@@ -74,8 +74,8 @@
     ViewBinder *binding = [_bindingTable objectForKey:view];
     if (binding) {
         //view存在binding
-        if ([model isKindOfClass:NSClassFromString(binding.modelType)]) {
-            //model类型与binding期望的类型相同,绑定
+        if (!binding.modelType || [model isKindOfClass:NSClassFromString(binding.modelType)]) {
+            //没有指定binding期望类型或者model类型与binding期望的类型相同,绑定
             if (!binding.identifier || ([model conformsToProtocol:@protocol(IdentifierModel)] && [binding.identifier isEqualToString:[model identifier]])) {
                 
                 //binding不需要指定identifier 或者 binding 指定id与model的identifier相同,绑定
