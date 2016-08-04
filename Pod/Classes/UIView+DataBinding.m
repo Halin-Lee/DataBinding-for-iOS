@@ -22,10 +22,10 @@
     
     //覆盖UIView原本的set事件,拦截BindMethod和BindType
     
-    if ([key containsString:BIND_PATH]) {
+    if (value && [value isKindOfClass:[NSString class]] &&[value hasPrefix:BIND_PATH]) {
         //绑定方法
-        NSString *field = [key stringByReplacingOccurrencesOfString:BIND_PATH withString:@""];
-        NSString *method = value;
+        NSString *field = [value stringByReplacingOccurrencesOfString:BIND_PATH withString:@""];
+        NSString *method = key;
         [[DataBindingUtil dataBindingUtil] addBindingField:field bindingMethod:method forView:self];
         
     }else if([key isEqualToString:BIND_TYPE]){
@@ -39,6 +39,7 @@
     }else {
         [self overridedSetValue:value forKey:key];
     }
+
 }
 
 

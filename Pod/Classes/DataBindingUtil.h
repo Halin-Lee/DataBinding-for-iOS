@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 //#import "Singleton.h"
+//TODO:1.双向绑定   2.表达式
 
 @protocol IdentifierModel <NSObject>
 @required
